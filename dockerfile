@@ -16,6 +16,8 @@ CMD ["bash"]
 
 EXPOSE 3000
 
+# CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
+
 # # syntax = docker/dockerfile:1
 
 # # Make sure RUBY_VERSION matches the Ruby version in .ruby-version and Gemfile
